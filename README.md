@@ -9,7 +9,7 @@ The subtitle scripts were tagged with the time stamps during which the dialogues
 # Approach
 Carried out Topic Modeling on each of the movie scripts , obtained the percentage distribution of each movie for each of the six genres namely , 0 : Drama , 1 : Mystery / Adventure , 2 : Action , 3 : Thriller , 4 : Comedy / Romance , 5 : Science Fiction. Picked the genre for which the movie had the highest perecntage distribution. 
 
-Topic Modeling was done after removing the stop words , a list of words that did not add  meaning to the dialogue and also Proper nouns and Plural nouns. These words put together were added into a list and were passed into the tfidf vectorizer to carry out topic modeling . Also carried out a Doc2Vec approach to obtain the clusters , similarly Kmeans on LDA(Latent dirichlet Allocation) was also carried out.
+Topic Modeling was done after removing the stop words , a list of words that did not add  meaning to the dialogue and also Proper nouns(Plural and Singular). These words put together were added into a list and were passed into the tfidf vectorizer to carry out topic modeling . Also carried out a Doc2Vec approach to obtain the clusters , similarly Kmeans on LDA(Latent dirichlet Allocation) was also carried out.
 
 Machine learning models such as ensemble models , Logistic Regression , Knn as well as SVM models were carried out , ROC curves and confusion matrices were used to show the results.
 
